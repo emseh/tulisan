@@ -70,3 +70,8 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+# Custom gem
+gem 'dotenv-rails', '~> 2.7', '>= 2.7.6'
+gem 'rubocop', '~> 1.24', '>= 1.24.1'
+gem 'awesome_print', '~> 1.9', '>= 1.9.2'

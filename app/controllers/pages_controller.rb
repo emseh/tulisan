@@ -4,4 +4,8 @@ class PagesController < ApplicationController
 
   def about
   end
+
+  def hello
+    render plain: 'hello'
+  end
 end

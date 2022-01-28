@@ -74,4 +74,5 @@ end
 # Custom gem
 gem 'awesome_print', '~> 1.8'
 gem 'dotenv-rails', '~> 2.7', '>= 2.7.6'
+gem 'htmlbeautifier', '~> 1.4', '>= 1.4.1'
 gem 'rubocop', '~> 1.24', '>= 1.24.1'

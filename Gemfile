@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
@@ -19,7 +21,7 @@ gem 'puma', '~> 5.0'
 gem 'importmap-rails'
 
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
-gem 'turbo-rails'
+gem 'turbo-rails', '~> 1.0', '>= 1.0.1'
 
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem 'stimulus-rails'
@@ -73,6 +75,7 @@ end
 
 # Custom gem
 gem 'awesome_print', '~> 1.8'
+gem 'cssbundling-rails', '~> 1.0'
 gem 'dotenv-rails', '~> 2.7', '>= 2.7.6'
 gem 'htmlbeautifier', '~> 1.4', '>= 1.4.1'
 gem 'rubocop', '~> 1.24', '>= 1.24.1'

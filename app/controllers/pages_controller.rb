@@ -1,9 +1,10 @@
-class PagesController < ApplicationController
-  def home
-  end
+# frozen_string_literal: true
 
-  def about
-  end
+# app/controllers/pages_controller.rb
+class PagesController < ApplicationController
+  def home; end
+
+  def about; end
 
   def hello
     render plain: 'hello'

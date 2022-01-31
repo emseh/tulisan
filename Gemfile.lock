@@ -247,7 +247,7 @@ DEPENDENCIES
   jbuilder
   pg (~> 1.1)
   puma (~> 5.0)
-  rails (~> 7.0.0)
+  rails (~> 7.0.1)
   rubocop (~> 1.24, >= 1.24.1)
   selenium-webdriver
   sprockets-rails

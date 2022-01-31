@@ -13,9 +13,7 @@
 
   <body>
   <%= render 'layouts/navbar' %><br>
-  <% flash.each do |name, message| %>
-    <%= message %>
-  <% end %>
+  <%= render 'layouts/messages' %>
     <%= yield %>
   </body>
 </html>
